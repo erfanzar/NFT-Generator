@@ -1,0 +1,16 @@
+input_format_name_founder = [list, tuple, int]
+
+
+def name_founder(files: input_format_name_founder) -> list: ...
+
+
+def reader(files: str) -> list: ...
+
+
+def show(elements: [list, tuple, int]) -> list: ...
+
+
+def forward(elements: [list, tuple, int]) -> list: ...
+
+
+def mkdir(name: str) -> None: ...
